@@ -9,8 +9,8 @@ function(){
 	LunchCheckController.$inject = ['$scope'];
 	
 	function LunchCheckController($scope){
-		$scope.inputItems = "Tea";
-		$scope.message = "Hello, Coursera!";
+		$scope.inputItems = "";
+		$scope.message = "";
 		$scope.LunchCheck = function(){
 			$scope.message = "";
 			var arrItems = $scope.inputItems.split(',');
